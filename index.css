@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 0.5px;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+#body {
+
+  padding: 0;
+}
+
+.resume_component {
+  width: 950px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #f9f99f9;
+  box-shadow: 0 0 10px 1px #eee;
+  background: url('./background2.svg') no-repeat left top, url('./background3.svg') no-repeat left bottom;
+  background-repeat: no-repeat;
+}
+
+.name_component, .resume_content {
+  padding: 7px 30px;
+  box-sizing: border-box;
+}
+
+.resume_content p {
+  margin: 0;
+}
+
+.tenure_details {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 0;
+}
+
+.tenure_details span {
+  display: inline-block;
+  font-size: 14px;
+  color: darkgrey;
+  font-style: italic;
+}
+
+.company_description {
+  font-size: 15px;
+  color: grey;
+}
+
+.resume_content h3 {
+  font-size: 24px;
+  color: #3895d3;
+}
+.resume_content h4 {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: 2px;
+}
+
+.h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.h5 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 15px 0 !important;
+}
+
+.name_component p{
+  margin: 8px;
+}
+
+.candidate_name {
+  font-size: 34px;
+}
+
+.candidate_tag {
+  font-size: 20px;
+}
+
+.candidate_caption {
+  font-size: 16px;
+}
+
+.extra_information {
+  background-color: #f1f1f1;
+  width: 100%;
+  padding: 10px 30px;
+  box-sizing: border-box;
+}
+
+.extra_information li {
+  display: inline-block;
+  width: 48%;
+  padding:5px 10px 10px 10px ;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.resume_body {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.resume_parts {
+  width: 47%;
+}
+
+.icon_color {
+  color: #1886d1;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.achivements {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.achivements li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.individual_achivement {
+  display: flex;
+  margin-bottom: 4px;
+}
+.individual_achivement span {
+  display: block;
+}
+.individual_achivement li {
+  margin-left: 10px;
+}
+
+.tag_holder {
+
+}
+
+.tag_holder li {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px solid grey;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.balls {
+  height: 20px;
+  width: 20px;
+  border-radius: 25px;
+  display: inline-block;
+  background-color: #3895d3;
+  position: relative;
+  top: 5px;
+  margin: 0 5px;
+}
+
+.skill_holder li {
+  background-color: #3895d3;
+  color: #fff;
+  border-color: #3895d3;
+  font-weight: bold;
+}
+
+.language {
+  width: 150px;
+  display: inline-block;
+}
